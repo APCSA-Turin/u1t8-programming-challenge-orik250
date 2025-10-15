@@ -2,16 +2,26 @@ package com.example.project;
 
 public class Student {
     // INSTANCE VARIABLES (private)
-    // first name (String)
+    private String firstName;
+    private String lastName;
+    private int gradYear;
+    private double scoreSum;
+    private int scoreCount;
+    private double highScore;
+
     // last name (String)
     // graduation year (int)
     // sum of test scores (double).. should initialize at 0.0
     // test score count (int) ..should initialize at 0
     // highest test score (double).. should initialize at 0.0
- 
+    
     // constructor
     public Student(String firstName, String lastName, int gradYear) {
         //implement code here!
+        firstName = "John";
+        lastName = "Johnson";
+        gradYear = 2029;
+        
 
     }
  
