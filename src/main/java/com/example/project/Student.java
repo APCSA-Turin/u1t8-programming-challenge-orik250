@@ -8,7 +8,6 @@ public class Student {
     private double scoreSum;
     private int scoreCount;
     private double highestScore;
-    double scoreAvg = scoreSum/scoreCount;
     // last name (String)
     // graduation year (int)
     // sum of test scores (double).. should initialize at 0.0
@@ -76,14 +75,21 @@ public class Student {
     // than or equal to 65; returns false otherwise (see Note 2 below)
     public boolean isPassing() {
         //implement code here!
-            return scoreAvg>=65;
-    }
+        if (scoreCount==0){
+            return false;
+        }else{
+            return averageTestScore()>=65;
+    }   }
     // returns the Student's average test score as the
     // quotient of accumulatedTestScores and testScoreCount
     public double averageTestScore() {
-        
-        return scoreAvg; //random double number
+        if (scoreCount==0){
+            return 0.0;
+        }else{
+            return scoreSum/scoreCount; //random double number
+        }
     }
+
  
     // this method prints all info of a Student object to the console 
     // I AM NOT TESTING YOU ON THIS METHOD. IT'S FOR YOUR TESTING PURPOSES ONLY.. you don't have to use it
