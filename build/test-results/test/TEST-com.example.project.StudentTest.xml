@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.project.StudentTest" tests="9" skipped="0" failures="9" errors="0" timestamp="2025-10-15T13:59:31.693Z" hostname="codespaces-b4787f" time="0.076">
+<testsuite name="com.example.project.StudentTest" tests="9" skipped="0" failures="9" errors="0" timestamp="2025-10-15T17:42:48.130Z" hostname="codespaces-52eec3" time="0.079">
   <properties/>
-  <testcase name="testIsPassing()" classname="com.example.project.StudentTest" time="0.026">
+  <testcase name="testIsPassing()" classname="com.example.project.StudentTest" time="0.028">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -96,15 +96,15 @@
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="testMultipleStudentsAreIndependent()" classname="com.example.project.StudentTest" time="0.004">
-    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;1&gt; but was: &lt;0&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;1&gt; but was: &lt;0&gt;
+  <testcase name="testMultipleStudentsAreIndependent()" classname="com.example.project.StudentTest" time="0.003">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;90.0&gt; but was: &lt;50.0&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;90.0&gt; but was: &lt;50.0&gt;
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
 	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
-	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
-	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:527)
-	at app//com.example.project.StudentTest.testMultipleStudentsAreIndependent(StudentTest.java:91)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:70)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:65)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:885)
+	at app//com.example.project.StudentTest.testMultipleStudentsAreIndependent(StudentTest.java:93)
 	at java.base@17.0.15/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@17.0.15/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base@17.0.15/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -191,8 +191,8 @@
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="testGetLastName()" classname="com.example.project.StudentTest" time="0.002">
-    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;Doe&gt; but was: &lt;&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;Doe&gt; but was: &lt;&gt;
+  <testcase name="testGetLastName()" classname="com.example.project.StudentTest" time="0.004">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;Doe&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;Doe&gt; but was: &lt;null&gt;
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
 	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
@@ -286,8 +286,8 @@
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="testGetFirstName()" classname="com.example.project.StudentTest" time="0.009">
-    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;John&gt; but was: &lt;&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;John&gt; but was: &lt;&gt;
+  <testcase name="testGetFirstName()" classname="com.example.project.StudentTest" time="0.007">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;John&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;John&gt; but was: &lt;null&gt;
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
 	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
@@ -381,7 +381,7 @@
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="testInitialTestScoreCountAndHighest()" classname="com.example.project.StudentTest" time="0.005">
+  <testcase name="testInitialTestScoreCountAndHighest()" classname="com.example.project.StudentTest" time="0.004">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;0.0&gt; but was: &lt;50.0&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;0.0&gt; but was: &lt;50.0&gt;
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -476,8 +476,8 @@
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="testSAddTestScore()" classname="com.example.project.StudentTest" time="0.002">
-    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;[2.0, 95.6]&gt; but was: &lt;[0.0, 50.0]&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;[2.0, 95.6]&gt; but was: &lt;[0.0, 50.0]&gt;
+  <testcase name="testSAddTestScore()" classname="com.example.project.StudentTest" time="0.004">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;[2.0, 95.6]&gt; but was: &lt;[2.0, 50.0]&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;[2.0, 95.6]&gt; but was: &lt;[2.0, 50.0]&gt;
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
 	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
@@ -571,7 +571,7 @@
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="testGetHighestTestScore()" classname="com.example.project.StudentTest" time="0.002">
+  <testcase name="testGetHighestTestScore()" classname="com.example.project.StudentTest" time="0.004">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;0.0&gt; but was: &lt;50.0&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;0.0&gt; but was: &lt;50.0&gt;
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -666,7 +666,7 @@
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="testSetGradYear()" classname="com.example.project.StudentTest" time="0.003">
+  <testcase name="testSetGradYear()" classname="com.example.project.StudentTest" time="0.006">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;2027&gt; but was: &lt;0&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;2027&gt; but was: &lt;0&gt;
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -761,8 +761,8 @@
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="testAverageTestScore()" classname="com.example.project.StudentTest" time="0.002">
-    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;93.55&gt; but was: &lt;50.0&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;93.55&gt; but was: &lt;50.0&gt;
+  <testcase name="testAverageTestScore()" classname="com.example.project.StudentTest" time="0.004">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;93.55&gt; but was: &lt;NaN&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;93.55&gt; but was: &lt;NaN&gt;
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
 	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
